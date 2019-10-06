@@ -50,12 +50,12 @@ function App(props) {
       <br></br>
       <h1 style={styel}>My first react app {currentState.counter}</h1>
       <p>hello</p>
-      
-      <select id="lang" onChange={handleChange} value={selectedOption}>
-        {options_list}
-      </select>
 
-      {/* <input type='text' name='input' onChange={changeName}></input> */}
+      {/* <select id="lang" onChange={handleChange} value={selectedOption}>
+        {options_list}
+      </select> */}
+
+      <input type='text' name='input' onChange={changeName}></input>
     </div>
   );
 }
