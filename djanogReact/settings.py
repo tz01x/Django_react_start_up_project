@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webpack_loader',
-    'frontend'
+    'frontend',
+        'med_api',
+    'rest_framework'
 ]
 
 WEBPACK_LOADER = {
