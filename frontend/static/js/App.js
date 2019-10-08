@@ -173,6 +173,16 @@ fetch('./create/', {
             } )
             .catch((err)=>alert(err));
 
+            setValues({
+              user: '',
+              address: '',
+              phone: '', 
+            });
+            set_meds([{
+              med_name:'',
+              quantity:0
+            }]);
+
 };
 
 function add_another(e){
