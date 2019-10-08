@@ -250,9 +250,10 @@ function add_another(e){
       
       
       {/* <input type="submit" className="btn" onClick={_onSubmit_form}></input> */}
-      <div>
+      
 
       <Button
+       onClick={_onSubmit_form}
         variant="contained"
         color="primary"
         className={classes.button}
@@ -260,7 +261,7 @@ function add_another(e){
       >
         submit
       </Button>
-      </div>
+      
       
     </form>
 
